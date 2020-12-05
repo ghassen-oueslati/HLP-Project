@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+</head>
+<nav>
+    <a href="index.html" title="Accueil">Accueil</a>
+    <a href="menu.html" title="Voir le Menu">Notre Menu</a>
+    <a href="Feedback.html" title="Votre Feedback">Feedback</a>
+</nav>
+<form>
+    <fieldset>
+        <legend>Votre feedback</legend>
+    <div>
+    <label>Avez vous déjà visité notre restaurant ? </label>
+    <div>
+        <input type="radio" name="Visite" id="oui">
+        <label for="oui">Oui j'ai déja visité</label>
+    </div>
+</div>
+    <div>
+        <input type="radio" name="Visite" id="non">
+        <label for="oui">Non je n'ai pas encore visité</label>
+    </div>
+<div>
+    <label for="note">Si oui, S'il vous plait indiquez votre degré de satisfaction et écriver votre feedback</label>
+    <input id="note" name="note" type="range">
+</div>
+
+<div>
+    <p></p>
+    <textarea name="message" id="message" cols="50" rows="20" placeholder="Votre Feedback" ></textarea>
+</div>
+<button type="submit">Envoyer mon Feedback</button>
+<button type="reset">Annuler</button>
+</fieldset>
+</form>
+</body>
+</html>
